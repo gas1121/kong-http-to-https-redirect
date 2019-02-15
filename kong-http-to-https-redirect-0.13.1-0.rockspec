@@ -1,15 +1,15 @@
 package = "kong-http-to-https-redirect"
 version = "0.13.1-0"
 source = {
-    url = "git://github.com/HappyValleyIO/kong-http-to-https-redirect",
-    branch = "master"
+    url = "git://github.com/gas1121/kong-http-to-https-redirect",
+    branch = "kong1.0-support"
 }
 description = {
     summary = "A Kong plugin for redirecting HTTP traffic to HTTPS.",
     detailed = [[
       Redirects traffic from HTTP to HTTPS (currently only offers 301 redirect).
     ]],
-    homepage = "https://github.com/HappyValleyIO/kong-http-to-https-redirect",
+    homepage = "https://github.com/gas1121/kong-http-to-https-redirect",
     license = "MIT"
 }
 dependencies = {
